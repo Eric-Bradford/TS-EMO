@@ -1,7 +1,8 @@
-BSD 3-Clause License
+TSEMO_V1 for GNU Octave 3.2.x and Matlab 7.x
 
-Copyright (c) 2017, Eric-Bradford
-All rights reserved.
+The code is released under the FreeBSD 3-Clause License.
+
+Copyright (c) 2017 Eric Bradford & Artur M. Schweidtmann. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
