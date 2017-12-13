@@ -1,4 +1,6 @@
-# Pareto Set by Yi Cao
+# Pareto Set
+
+version 1.1 by Yi Cao
 
 Find the pareto set from n points with k objectives
 
