@@ -13,12 +13,13 @@ Implementation: Kaifeng Yang, Michael T. M. Emmerich
 Algorithm: Kaifeng Yang and Michael T. M. Emmerich, LIACS, Leiden University
 
 For the 2D case the mex-file used follows the description of:
-'M. Emmerich, K. Yang, A. Deutz, H. Wang and C. M. Fonseca. A
-Multicriteria Generalization of Bayesian Global Optimization.' 
+Yang, K., Emmerich, M., Deutz, A., & Fonseca, C. M. (2017, March). Computing 3-D Expected  
+Hypervolume Improvement and Related Integrals in Asymptotically Optimal Time. In International  
+Conference on Evolutionary Multi-Criterion Optimization (pp. 685-700). Springer, Cham.
 
 For the 3D case the mex-file used follows the description of:
-'K. Yang, M. Emmerich, A. Deutz and C. M. Fonseca. A
-Computing 3-D Expected Hypervolume Improvement and Related Integrals in 
-Asymptotically Optimal Time.' 
+Emmerich, M., Yang, K., Deutz, A., Wang, H., & Fonseca, C. M. (2016). 
+A multicriteria generalization of bayesian global optimization. 
+In Advances in Stochastic and Deterministic Global Optimization (pp. 229-242). Springer International Publishing.
 
-For the original unmodified mex files please go to http://liacs.leidenuniv.nl/~csmoda/code/EHVI.rar.
+For the original unmodified mex files download http://liacs.leidenuniv.nl/~csmoda/code/EHVI.rar.
