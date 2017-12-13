@@ -13,8 +13,8 @@ Implementation: Kaifeng Yang, Michael T. M. Emmerich
 Algorithm: Kaifeng Yang and Michael T. M. Emmerich, LIACS, Leiden University
 
 For the 2D case the mex-file used follows the description of:
-Yang, K., Emmerich, M., Deutz, A., & Fonseca, C. M. (2017, March). Computing 3-D Expected  
-Hypervolume Improvement and Related Integrals in Asymptotically Optimal Time. In International  
+Yang, K., Emmerich, M., Deutz, A., & Fonseca, C. M. (2017, March). Computing 3-D Expected Hypervolume Improvement 
+and Related Integrals in Asymptotically Optimal Time. In International  
 Conference on Evolutionary Multi-Criterion Optimization (pp. 685-700). Springer, Cham.
 
 For the 3D case the mex-file used follows the description of:
