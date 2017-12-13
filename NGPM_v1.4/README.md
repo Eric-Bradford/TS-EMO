@@ -1,4 +1,4 @@
-NGPM -- A NSGA-II Program in Matlab v1.4
+# NGPM -- A NSGA-II Program in Matlab v1.4
 
 This program is an implementation of nondominated sorting genetic algorithm II (NSGA-II) proposed by K. Deb. Capabilities:
 1. R-NSGA-II: Reference-point-based NSGA-II. 
