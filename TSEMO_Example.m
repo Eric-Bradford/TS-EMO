@@ -52,6 +52,9 @@ opt.NoOfBachSequential = 1;      % number of function evaluations per iteration
 % For each iteration the current iteration number is displayed, the
 % predicted hypervolume improvement and the time taken.
 
+% TS-EMO creates a log file named "TSEMO_log.txt" that contains all relevant information 
+% over the entire algorithm run. 
+
 %% Step 6: Visualise results
 figure
 hold on
