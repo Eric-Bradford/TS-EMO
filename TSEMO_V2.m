@@ -1,6 +1,6 @@
 function [Xpareto,Ypareto,X,Y,XParetoGP,YParetoGP,hypf] = TSEMO_V2(f,X,Y,lb,ub,Opt)
 %  Copyright (c) by Eric Bradford, Artur M. Schweidtmann and Alexei Lapkin, 2018-28-01.
-%  Version 1.0 by Eric Bradford (eric.bradford@ntnu.no), Artur M.
+%  Version 2 by Eric Bradford (eric.bradford@ntnu.no), Artur M.
 %  Schweidtmann (Artur.Schweidtmann@avt.rwth-aachen.de) and Alexei Lapkin
 %  (aal35@cam.ac.uk)
 
