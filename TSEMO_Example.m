@@ -1,5 +1,5 @@
 %% Example on how to use TSEMO_V2
-% Copyright (c) by Eric Bradford, Artur M. Schweidtmann and Alexei Lapkin, 2017-13-12.
+% Copyright (c) by Eric Bradford, Artur M. Schweidtmann and Alexei Lapkin, 2018-28-01.
 
 %% Step 1: Set path to folder
 % Matlab Home, Set Path, Add folder with subfolders, select "TS-EMO-master"
@@ -26,7 +26,7 @@ for k = 1:size(X,1)
 end
 
 opt = TSEMO_options;             % call options for solver, see TSEMO_options file to adjust
-opt.maxeval = 2;                 % number of function evaluations before termination
+opt.maxeval = 20;                % number of function evaluations before termination
 opt.NoOfBachSequential = 1;      % number of function evaluations per iteration
 % Total number of iterations = opt.maxeval/opt.NoOfBachSequential
 
