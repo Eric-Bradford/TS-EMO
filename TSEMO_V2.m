@@ -147,7 +147,7 @@ end
 TSEMO_log = fopen( 'TSEMO_log.txt', 'w');
 fprintf(TSEMO_log,'\n %s %s \n', 'TSEMO log file created on',date);
 fprintf(TSEMO_log,'\n %s','This file shows the initial specifications of TSEMO and logs the output.');
-fprintf(TSEMO_log,'\n %s', '¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯');
+fprintf(TSEMO_log,'\n %s', 'Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯');
 
 fprintf(TSEMO_log,'\n %s \n', 'License information');
 fprintf(TSEMO_log,'\n %s \n', 'BSD 2-Clause License');
@@ -160,7 +160,7 @@ fprintf(TSEMO_log,'\n %s \n', ' list of conditions and the following disclaimer.
 fprintf(TSEMO_log,'\n %s   ', '*Redistributions in binary form must reproduce the above copyright notice,');
 fprintf(TSEMO_log,'\n %s   ', ' this list of conditions and the following disclaimer in the documentation');
 fprintf(TSEMO_log,'\n %s \n', ' and/or other materials provided with the distribution.');
-fprintf(TSEMO_log,'\n %s', '¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯');
+fprintf(TSEMO_log,'\n %s', 'Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯');
 
 fprintf(TSEMO_log,'\n %s \n', 'Problem specifications');
 fprintf(TSEMO_log,'\n %s %s \n', 'Function used:  ',function_name); 
@@ -172,7 +172,7 @@ fprintf(TSEMO_log,string1,lb);
 fprintf(TSEMO_log,'\n \n %s', 'Upper bounds of decision variables:');
 fprintf(TSEMO_log,strcat('\n',string3,'\n'),string2{:});
 fprintf(TSEMO_log,string1,ub);
-fprintf(TSEMO_log,'\n %s', '¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯');
+fprintf(TSEMO_log,'\n %s', 'Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯');
 
 fprintf(TSEMO_log,'\n %s \n', 'Algorithm options');
 fprintf(TSEMO_log,'\n %s %d', 'Maximum number of function evaluations: ',Opt.maxeval);
@@ -184,7 +184,7 @@ fprintf(TSEMO_log,strcat('\n','%s',string6,'\n'),'                              
 fprintf(TSEMO_log,strcat('%s',string7,'\n'), ' Number of spectral sampling points:     ',Opt.GP(1:size(Y,2)).nSpectralpoints);
 fprintf(TSEMO_log,strcat('%s',string7), ' Type of matern function:                ',Opt.GP(1:size(Y,2)).matern);
 fprintf(TSEMO_log,strcat('\n','%s',string7), ' Direct evaluations per input dimension: ',Opt.GP(1:size(Y,2)).fun_eval);
-fprintf(TSEMO_log,'\n %s', '¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯');
+fprintf(TSEMO_log,'\n %s', 'Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯');
 
 fprintf(TSEMO_log,'\n %s \n', 'Initial data set');
 fprintf(TSEMO_log,'\n %s %d \n', 'Number of initial data points: ',size(X,1)); 
@@ -194,7 +194,7 @@ fprintf(TSEMO_log,strcat(string1,'\n'),X');
 fprintf(TSEMO_log,'\n %s', 'Initial output data matrix:'); 
 fprintf(TSEMO_log,strcat('\n',string6,'\n'),string5{:});
 fprintf(TSEMO_log,strcat(string4,'\n'),Y');
-fprintf(TSEMO_log,'\n %s', '¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯');
+fprintf(TSEMO_log,'\n %s', 'Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯');
 return
 
 function update_log_file(it,hv_imp,toc,xnewtrue,ytrue,Opt,Y,ub,lb)
@@ -238,7 +238,7 @@ fprintf(TSEMO_log,strcat('\n','%+16s',string6,'\n'),'Hyperparameter',string5{:})
 for i = 1:Opt.Gen.NoOfInputDim+2
 fprintf(TSEMO_log,strcat('%+16s',string4,'\n'),string8{i},hypmat(i,:));
 end
-fprintf(TSEMO_log,'\n %s', '¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯');
+fprintf(TSEMO_log,'\n %s', 'Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯');
 return
 
 function final_log_update(Xpareto,Ypareto,X,Y,XParetoGP,YParetoGP,hypf,Opt)
@@ -300,14 +300,14 @@ Xnew = zeros(size(X)) ; % scaled inputs
 Ynew = zeros(size(Y)) ; % scaled outputs
 
 %% Scale input variables to [0,1]
-for i = 1 : Opt.Gen.NoOfInputDim
+for i = 1 : size(X,2)
     Xnew(:,i) = (X(:,i)-lb(i)) / (ub(i)-lb(i)) ;
 end
 
 %% Scale output variables to zero mean and unit variance
 MeanOfOutputs = zeros(Opt.Gen.NoOfGPs,1) ;
 stdOfOutputs = zeros(Opt.Gen.NoOfGPs,1) ;
-for i = 1 : Opt.Gen.NoOfGPs
+for i = 1 : size(Y,2)
     MeanOfOutputs(i) = mean(Y(:,i)); % calculate mean
     stdOfOutputs(i) = std(Y(:,i)) ; % calculate standard deviation
     Ynew(:,i) = (Y(:,i) - MeanOfOutputs(i)) / stdOfOutputs(i) ; % scale outputs
