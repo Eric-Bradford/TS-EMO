@@ -10,7 +10,7 @@ optimization employing Gaussian processes, spectral sampling
 and a genetic algorithm,” Journal of Global Optimization, pp. 1–33,
 2018.
 
-@article{Bradford2018d,
+@article{Bradford2018,
 author = {Bradford, Eric and Schweidtmann, Artur M and Lapkin, Alexei},
 issn = {0925-5001},
 journal = {Journal of Global Optimization},
