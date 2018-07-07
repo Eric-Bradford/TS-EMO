@@ -11,11 +11,13 @@ and a genetic algorithm”, Journal of Global Optimization, pp. 1–33,
 2018.
 
 @article{Bradford2018,
-author = {Bradford, Eric and Schweidtmann, Artur M and Lapkin, Alexei},
-issn = {0925-5001},
-journal = {Journal of Global Optimization},
-pages = {1--33},
-publisher = {Springer},
-title = {{Efficient multiobjective optimization employing Gaussian processes, spectral sampling and a genetic algorithm}},
-year = {2018}
-}
+author="Bradford, Eric
+and Schweidtmann, Artur M.
+and Lapkin, Alexei",
+title="Efficient multiobjective optimization employing Gaussian processes, spectral sampling and a genetic algorithm",
+journal="Journal of Global Optimization",
+year="2018",
+volume="71",
+number="2",
+pages="407--438",
+doi="10.1007/s10898-018-0609-2"}
