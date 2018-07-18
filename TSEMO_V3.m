@@ -105,8 +105,12 @@ if i == ceil(Opt.maxeval/Opt.NoOfBachSequential)
     
     for j = 1:Opt.Gen.NoOfInputDim
         XParetoGP(:,j) = Mean_xpareto(:,j)*(ub(j)-lb(j)) + lb(j);
+    end
+    
+    for j = 1:Opt.Gen.NoOfGPs
         YParetoGP(:,j) = Mean_pareto(:,j)*std(Y(:,j)) + mean(Y(:,j));
     end
+
 
 %% Update log with final results    
 final_log_update(Xpareto,Ypareto,X,Y,XParetoGP,YParetoGP,hypf,Opt)    
