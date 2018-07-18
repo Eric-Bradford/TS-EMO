@@ -199,6 +199,7 @@ fprintf(TSEMO_log,'\n %s', 'Initial output data matrix:');
 fprintf(TSEMO_log,strcat('\n',string6,'\n'),string5{:});
 fprintf(TSEMO_log,strcat(string4,'\n'),Y');
 fprintf(TSEMO_log,'\n %s', '¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯');
+fclose(TSEMO_log) ;
 return
 
 function update_log_file(it,hv_imp,toc,xnewtrue,ytrue,Opt,Y,ub,lb)
@@ -243,6 +244,7 @@ for i = 1:Opt.Gen.NoOfInputDim+2
 fprintf(TSEMO_log,strcat('%+16s',string4,'\n'),string8{i},hypmat(i,:));
 end
 fprintf(TSEMO_log,'\n %s', '¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯');
+fclose(TSEMO_log) ;
 return
 
 function final_log_update(Xpareto,Ypareto,X,Y,XParetoGP,YParetoGP,hypf,Opt)
@@ -294,6 +296,7 @@ fprintf(TSEMO_log,strcat('\n','%+16s',string6,'\n'),'Hyperparameter',string5{:})
 for i = 1:Opt.Gen.NoOfInputDim+2
 fprintf(TSEMO_log,strcat('%+16s',string4,'\n'),string8{i},hypf(i,:));
 end
+fclose(TSEMO_log) ;
 return
 
 function [Xnew,Ynew] = ScaleVariables(X,Y,lb,ub,Opt)
