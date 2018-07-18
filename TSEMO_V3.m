@@ -128,6 +128,7 @@ end
 return
 
 function create_log_file(X,Y,Opt,f,lb,ub)
+try
 function_name = func2str(f);
 string1 = '';
 string2 = {};
@@ -200,9 +201,14 @@ fprintf(TSEMO_log,strcat('\n',string6,'\n'),string5{:});
 fprintf(TSEMO_log,strcat(string4,'\n'),Y');
 fprintf(TSEMO_log,'\n %s', '¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯');
 fclose(TSEMO_log) ;
+catch
+   warning('There was an error when writing the log file. Maybe the file was currently open in another program. The algorithm continues to run but some parts of the log file are maybe not correct.') ;
+    fclose('all') ;
+end
 return
 
 function update_log_file(it,hv_imp,toc,xnewtrue,ytrue,Opt,Y,ub,lb)
+try
 string1 = '';
 string2 = {};
 string3 = '';
@@ -245,9 +251,14 @@ fprintf(TSEMO_log,strcat('%+16s',string4,'\n'),string8{i},hypmat(i,:));
 end
 fprintf(TSEMO_log,'\n %s', '¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯');
 fclose(TSEMO_log) ;
+catch
+   warning('There was an error when writing the log file. Maybe the file was currently open in another program. The algorithm continues to run but some parts of the log file are maybe not correct.') ;
+    fclose('all') ;
+end
 return
 
 function final_log_update(Xpareto,Ypareto,X,Y,XParetoGP,YParetoGP,hypf,Opt)
+try
 string1 = '';
 string2 = {};
 string3 = '';
@@ -297,6 +308,10 @@ for i = 1:Opt.Gen.NoOfInputDim+2
 fprintf(TSEMO_log,strcat('%+16s',string4,'\n'),string8{i},hypf(i,:));
 end
 fclose(TSEMO_log) ;
+catch
+   warning('There was an error when writing the log file. Maybe the file was currently open in another program. The algorithm continues to run but some parts of the log file are maybe not correct.') ;
+    fclose('all') ;
+end
 return
 
 function [Xnew,Ynew] = ScaleVariables(X,Y,lb,ub,Opt)
