@@ -4,7 +4,7 @@ This repository contains the source code for the “Thompson sampling efficient 
 To use TSEMO download all files contained in the repository and run the algorithm on the required test-function as shown in "TSEMO_Example".
 
 ______________________________________________________________________________________________________________________________
-To cite TSEMO use the following publication \cite{Bradford2018}:
+To cite TSEMO use the following publication (Bradford2018):
 
 E. Bradford, A. M. Schweidtmann, and A. Lapkin, “Efficient multiobjective
 optimization employing Gaussian processes, spectral sampling
