@@ -24,7 +24,7 @@ pages="407--438",
 doi="10.1007/s10898-018-0609-2"}
 
 ____________________________________________________________________________________________________________________________
-The algorithm has already been successfully applied to several expensive multiobjective optimization problems:
+The algorithm has been successfully applied to several expensive multiobjective optimization problems:
 
 - Determination of optimal conditions of a fully-automated chemical reactor system trading-off yield and environmental factors (Schweidtmann2018) 
 
