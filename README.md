@@ -3,14 +3,14 @@ This repository contains the source code for the “Thompson sampling efficient 
 
 To use TSEMO download all files contained in the repository and run the algorithm on the required test-function as shown in "TSEMO_Example".
 
-To cite TSEMO use the following publication:
+To cite TSEMO use the following publication \cite{Bradford2018}:
 
 E. Bradford, A. M. Schweidtmann, and A. Lapkin, “Efficient multiobjective
 optimization employing Gaussian processes, spectral sampling
 and a genetic algorithm”, Journal of Global Optimization, pp. 1–33,
 2018.
 
-The algorith has already been applied to the optimization of a fully-automated chemical reactor system \cite{Schweidtmann.2018} and life-cycle assesment and cost simulations \cite{Helmdach.2017}.
+The algorithm has already been successfully applied to the optimization of a fully-automated chemical reactor system \cite{Schweidtmann.2018} and life-cycle assessment and cost simulation \cite{Helmdach.2017}.
 
 @article{Bradford2018,
 author="Bradford, Eric
@@ -41,15 +41,4 @@ doi="10.1007/s10898-018-0609-2"}
   pages={3632--3643},
   year={2017},
   publisher={Wiley Online Library}
-}
-
-@article{bradford.2018b,
-  title={Correction to: Efficient multiobjective optimization employing Gaussian processes, spectral sampling and a genetic algorithm},
-  author={Bradford, Eric and Schweidtmann, Artur M and Lapkin, Alexei and others},
-  journal={Journal of Global Optimization},
-  volume={71},
-  number={2},
-  pages={439--440},
-  year={2018},
-  publisher={Springer}
 }
