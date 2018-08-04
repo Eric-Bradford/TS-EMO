@@ -8,8 +8,8 @@ To cite TSEMO use the following publication (Bradford2018):
 
 E. Bradford, A. M. Schweidtmann, and A. Lapkin, “Efficient multiobjective
 optimization employing Gaussian processes, spectral sampling
-and a genetic algorithm”, Journal of Global Optimization, pp. 1–33,
-2018.
+and a genetic algorithm,” Journal of Global Optimization, vol. 71,
+no. 2, pp. 407–438, 2018.
 
 @article{Bradford2018,
 author="Bradford, Eric
