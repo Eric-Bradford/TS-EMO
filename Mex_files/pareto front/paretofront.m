@@ -23,7 +23,7 @@
 % ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 % POSSIBILITY OF SUCH DAMAGE.
 %
-function b = prtp(B)
+function b = paretofront(B)
 A=[]; varargout{1}=[];
 sz1=size(B,1);
 jj=0; kk(sz1)=0;
