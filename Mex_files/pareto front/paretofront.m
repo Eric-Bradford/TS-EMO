@@ -46,5 +46,5 @@ for k=1:sz1
 end
   A            = c(1:jj,:);
   varargout{1} = kk(1:jj);
-  b = zeros(sz1,1); b(kk(1:jj)) = 1;
+  b = false(sz1,1); b(kk(1:jj)) = true;
 end
