@@ -22,4 +22,4 @@ Emmerich, M., Yang, K., Deutz, A., Wang, H., & Fonseca, C. M. (2016).
 A multicriteria generalization of bayesian global optimization. 
 In Advances in Stochastic and Deterministic Global Optimization (pp. 229-242). Springer International Publishing.
 
-For the original unmodified mex files download http://liacs.leidenuniv.nl/~csmoda/code/EHVI.rar.
+For the original unmodified mex files refer to http://liacs.leidenuniv.nl/~csmoda/index.php?page=code.
