@@ -35,7 +35,7 @@ function hypervolume = hypervolume3D(F,ub,lb)
 
 	hypervolume = 0;
     F  = -F' + ones(size(F'));
-	[M, l] = size(F); ub = ub + ones(1,length(M)); ub = ub';
+	[M, l] = size(F); ub = ub + ones(1,M); ub = ub';
 
 	% Remove the duplicates from F and compute Lebesque measure of L
 	L = unique(F','rows')';
