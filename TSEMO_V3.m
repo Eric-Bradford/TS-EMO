@@ -859,7 +859,7 @@ else
     A =  A * diag(1./(r-normvec));
     A = -A + ones(size(A));
     A = sortrows(A,2);
-    hyp_percentage = hypervolume2D(A,[0,0]);
+    hyp_percentage = hypervolume2D(A,[0;0]);
     hv = prod(r-normvec)*hyp_percentage;
 end
 return
