@@ -36,7 +36,7 @@ function hypervolume = hypervolume2D(F,ub)
 % Efficient method for 2D objective function values
     F  = -F' + ones(size(F'));
 	L  = sortrows(F',1)';
-	l  = length(L(1,:)); ub = ub + ones(1,length(L(1,:)));
+	l  = length(L(1,:)); ub = ub + ones(1,size(L,1));
 	hypervolume = 0;
 	for i = 1:l
 		hypervolume = hypervolume + ((L(1,i) - ub(1)) * (L(2,i) - ub(2)));
