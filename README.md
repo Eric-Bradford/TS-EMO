@@ -4,7 +4,7 @@ This repository contains the source code for the “Thompson sampling efficient 
 <img src="/Old_versions/Images/GP_sample_graphs.jpg" width="400">
 
 ## Getting started
-To use TSEMO download all files contained in the repository and run the algorithm on the required test-function as shown in the example matlab file [TSEMO_Example](TSEMO_Example.m). To use the algorithm on your own functions simply copy the same format as the functions shown in the [test-function folder](TS-EMO/Test_functions/). The algorithm can be applied to any number of inputs and objectives. 
+To use TSEMO download all files contained in the repository and run the algorithm on the required test-function as shown in the example matlab file [TSEMO_Example](TSEMO_Example.m). To use the algorithm on your own functions simply copy the same format as the functions shown in the [test-function folder](/Test_functions/). The algorithm can be applied to any number of inputs and objectives. 
 
 ## Example applications
 The algorithm has been successfully applied to several expensive multiobjective optimization problems:
@@ -16,7 +16,7 @@ The algorithm has been successfully applied to several expensive multiobjective 
 * Optimization of a chemical process using a life-cycle assessment and cost simulation [(Helmdach et al., 2018)](#Helmdach2017) 
 
 ## References
-E. Bradford, A. M. Schweidtmann, and A. Lapkin, [Efficient multiobjective optimization employing Gaussian processes, spectral sampling and a genetic algorithm](https://link.springer.com/article/10.1007/s10898-018-0609-2/), Journal of Global Optimization, vol. 71, no. 2, pp. 407–438, 2018.
+E. Bradford, A. M. Schweidtmann, and A. A. Lapkin, [Efficient multiobjective optimization employing Gaussian processes, spectral sampling and a genetic algorithm](https://link.springer.com/article/10.1007/s10898-018-0609-2/), Journal of Global Optimization, vol. 71, no. 2, pp. 407–438, 2018.
 
 <a name="Bradford2018">
 </a>
@@ -48,7 +48,7 @@ A. M. Schweidtmann, A. D. Clayton, N. Holmes, E. Bradford, R. A. Bourne, and A. 
   publisher={Elsevier}
 }
 
-D. Helmdach, P. Yaseneva, K. P. Heer, A. M. Schweidtmann and A. A. Lapkin, [A Multiobjective Optimization Including Results of Life Cycle Assessment in Developing Biorenewables-Based Processes](https://onlinelibrary.wiley.com/doi/abs/10.1002/cssc.201700927), ChemSusChem, vol. 10, no. 18, pp. 3632-3643, 2017.  
+D. Helmdach, P. Yaseneva, K. P. Heer, A. M. Schweidtmann, and A. A. Lapkin, [A Multiobjective Optimization Including Results of Life Cycle Assessment in Developing Biorenewables-Based Processes](https://onlinelibrary.wiley.com/doi/abs/10.1002/cssc.201700927), ChemSusChem, vol. 10, no. 18, pp. 3632-3643, 2017.  
 
 <a name="Helmdach2017">
 </a>
