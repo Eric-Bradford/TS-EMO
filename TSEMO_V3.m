@@ -416,14 +416,16 @@ sf2         = exp(2*hypVar(D+1));
 K           = zeros(n,n) ;
 
 %% Calculate covariance matrix
-for i = 1:D
-    K = K_M(:,(i-1)*n+1:i*n) * d/ell(i)^2 + K ;
-end
-
 if d ~= inf
+    for i = 1:D
+        K = K_M(:,(i-1)*n+1:i*n) * d/ell(i)^2 + K;
+    end
     sqrtK = sqrt(K) ;
     expnK = exp(-sqrtK) ;
 else
+    for i = 1:D
+        K = K_M(:,(i-1)*n+1:i*n) * 1/ell(i)^2 + K;
+    end
     expnK = exp(-1/2*K);
     sqrtK = [];
 end
