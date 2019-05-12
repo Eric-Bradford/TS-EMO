@@ -416,24 +416,22 @@ sf2         = exp(2*hypVar(D+1));
 K           = zeros(n,n) ;
 
 %% Calculate covariance matrix
-if d ~= inf
-    for i = 1:D
-        K = K_M(:,(i-1)*n+1:i*n) * d/ell(i)^2 + K;
-    end
+for i = 1:D
+    K = K_M(:,(i-1)*n+1:i*n) * d/ell(i)^2 + K;
+end
+
+if Opt.GP.cov ~= inf
     sqrtK = sqrt(K) ;
     expnK = exp(-sqrtK) ;
 else
-    for i = 1:D
-        K = K_M(:,(i-1)*n+1:i*n) * 1/ell(i)^2 + K;
-    end
     expnK = exp(-1/2*K);
     sqrtK = [];
 end
 
-if      d == 3, t = sqrtK ; m =  (1 + t).*expnK;
-elseif  d == 1,             m =  expnK;
-elseif  d == 5, t = sqrtK ; m =  (1 + t.*(1+t/3)).*expnK;
-elseif  d == inf, m  = expnK;
+if      Opt.GP.cov == 3, t = sqrtK ; m =  (1 + t).*expnK;
+elseif  Opt.GP.cov == 1,             m =  expnK;
+elseif  Opt.GP.cov == 5, t = sqrtK ; m =  (1 + t.*(1+t/3)).*expnK;
+elseif  Opt.GP.cov == inf,           m  = expnK;
 end
 K = sf2*m;
 K =  K + eye(n)*exp(hyp.lik*2) ;
