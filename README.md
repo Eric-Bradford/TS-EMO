@@ -15,51 +15,24 @@ The algorithm has been successfully applied to several expensive multiobjective 
 
 * Optimization of a chemical process using a life-cycle assessment and cost simulation [(Helmdach et al., 2018)](#Helmdach2017) 
 
+* Solvent selection for asymmetric catalysis using molecular descriptors [(Amar et al., 2019)](#Amar2019)
+
 ## References
 E. Bradford, A. M. Schweidtmann, and A. A. Lapkin, [Efficient multiobjective optimization employing Gaussian processes, spectral sampling and a genetic algorithm](https://link.springer.com/article/10.1007/s10898-018-0609-2/), Journal of Global Optimization, vol. 71, no. 2, pp. 407–438, 2018.
 
 <a name="Bradford2018">
 </a>
 
-@article{Bradford2018,
-author="Bradford, Eric
-and Schweidtmann, Artur M.
-and Lapkin, Alexei",
-title="Efficient multiobjective optimization employing Gaussian processes, spectral sampling and a genetic algorithm",
-journal="Journal of Global Optimization",
-year="2018",
-volume="71",
-number="2",
-pages="407--438",
-doi="10.1007/s10898-018-0609-2"}
-
 A. M. Schweidtmann, A. D. Clayton, N. Holmes, E. Bradford, R. A. Bourne, and A. A. Lapkin, [Machine learning meets continuous flow chemistry: Automated optimization towards the Pareto front of multiple objectives](https://www.sciencedirect.com/science/article/pii/S1385894718312634), Chemical Engineering Journal, vol. 352, pp. 277-282, 2018.    
 
 <a name="Schweidtmann2018">
 </a>
-
-@article{Schweidtmann2018,
-  title={Machine learning meets continuous flow chemistry: Automated optimization towards the Pareto front of multiple objectives},
-  author={Schweidtmann, Artur M and Clayton, Adam D and Holmes, Nicholas and Bradford, Eric and Bourne, Richard A and Lapkin, Alexei A},
-  journal={Chemical Engineering Journal},
-  volume={352},
-  pages={277--282},
-  year={2018},
-  publisher={Elsevier}
-}
 
 D. Helmdach, P. Yaseneva, K. P. Heer, A. M. Schweidtmann, and A. A. Lapkin, [A Multiobjective Optimization Including Results of Life Cycle Assessment in Developing Biorenewables-Based Processes](https://onlinelibrary.wiley.com/doi/abs/10.1002/cssc.201700927), ChemSusChem, vol. 10, no. 18, pp. 3632-3643, 2017.  
 
 <a name="Helmdach2017">
 </a>
 
-@article{Helmdach2017,
-  title={A Multiobjective Optimization Including Results of Life Cycle Assessment in Developing Biorenewables-Based Processes},
-  author={Helmdach, Daniel and Yaseneva, Polina and Heer, Parminder K and Schweidtmann, Artur M and Lapkin, Alexei A},
-  journal={ChemSusChem},
-  volume={10},
-  number={18},
-  pages={3632--3643},
-  year={2017},
-  publisher={Wiley Online Library}
-}
+Y. Amar, A. M. Schweidtmann, P. Deutsch, L. Cao, and A. A. Lapkin, [Machine learning and molecular descriptors enable rational solvent selection in asymmetric catalysis](https://pubs.rsc.org/en/content/articlelanding/2019/sc/c9sc01844a#!divAbstract), Chemical Science, 2019. 
+<a name="Amar2019">
+</a>
