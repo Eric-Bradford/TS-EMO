@@ -9,13 +9,14 @@ To use TSEMO download all files contained in the repository and run the algorith
 ## Example applications
 The algorithm has been successfully applied to several expensive multiobjective optimization problems:
 
-* Determination of optimal conditions of a fully-automated chemical reactor system trading-off yield and environmental factors [(Schweidtmann et al., 2018)](#Schweidtmann2018) 
+* Determination of optimal conditions of a fully-automated chemical reactor system trading-off yield and environmental factors [(Schweidtmann et al., 2018)](#Schweidtmann2018) including multi-step reactions and separation processes [(Clayton et al., 2020)](#Clayton2020)
 
 ![](https://ars.els-cdn.com/content/image/1-s2.0-S1385894718312634-gr2.jpg)
 
 * Optimization of a chemical process using a life-cycle assessment and cost simulation [(Helmdach et al., 2018)](#Helmdach2017) 
 
 * Solvent selection for asymmetric catalysis using molecular descriptors [(Amar et al., 2019)](#Amar2019)
+
 
 ## References
 E. Bradford, A. M. Schweidtmann, and A. A. Lapkin, [Efficient multiobjective optimization employing Gaussian processes, spectral sampling and a genetic algorithm](https://link.springer.com/article/10.1007/s10898-018-0609-2/), Journal of Global Optimization, vol. 71, no. 2, pp. 407–438, 2018.
@@ -35,4 +36,8 @@ D. Helmdach, P. Yaseneva, K. P. Heer, A. M. Schweidtmann, and A. A. Lapkin, [A M
 
 Y. Amar, A. M. Schweidtmann, P. Deutsch, L. Cao, and A. A. Lapkin, [Machine learning and molecular descriptors enable rational solvent selection in asymmetric catalysis](https://pubs.rsc.org/en/content/articlelanding/2019/sc/c9sc01844a#!divAbstract), Chemical Science, 2019. 
 <a name="Amar2019">
+</a>
+
+A. Clayton, A. M. Schweidtmann, G. Clemens, J. Manson, C. Taylor, C. Nino, T. Chamberlain, N. Kapur, A. Blacker, A. A. Lapkin, R. Bourne [Automated self-optimisation of multi-step reaction and separation processes using machine learning](https://doi.org/10.1016/j.cej.2019.123340), Chemical Engineering Journal, 2020. 
+<a name="Clayton2020">
 </a>
