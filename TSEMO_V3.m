@@ -91,7 +91,7 @@ for i = 1:ceil(Opt.maxeval/Opt.NoOfBachSequential)
         end
         
         hypf = zeros(Opt.Gen.NoOfInputDim+2,Opt.Gen.NoOfGPs);
-        for j = 1:Opt.Gen.NoOfGPs
+        for j = 1:Opt.Gen.NoOfInputDim
             covhyp = exp(Opt.GP(j).hyp.cov);
             hypf(:,j) = [covhyp(1:Opt.Gen.NoOfInputDim)*(1/(ub(j)-lb(j)));covhyp(end)*std(Y(:,j));exp(Opt.GP(j).hyp.lik)*std(Y(:,j))];
         end
