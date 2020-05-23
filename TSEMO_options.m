@@ -2,7 +2,7 @@ function opt = TSEMO_options
 % Copyright (c) by Eric Bradford, Artur M. Schweidtmann and Alexei Lapkin, 2017-13-12.
 
 % Description: Create TSEMO options structure.             
-opt.maxeval = 35;                   % Maximum number of funciton evaluations
+opt.maxeval = 35;                   % Maximum number of function evaluations
 
 for i = 1:3                         % this is only valid for up to 3 objectives. Number needs to be increased for more than 3.
 opt.GP(i).nSpectralpoints = 4000;   % Number of spectral sampling points for objective i
