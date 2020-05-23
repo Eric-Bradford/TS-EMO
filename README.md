@@ -34,10 +34,10 @@ D. Helmdach, P. Yaseneva, K. P. Heer, A. M. Schweidtmann, and A. A. Lapkin, [A M
 <a name="Helmdach2017">
 </a>
 
-Y. Amar, A. M. Schweidtmann, P. Deutsch, L. Cao, and A. A. Lapkin, [Machine learning and molecular descriptors enable rational solvent selection in asymmetric catalysis](https://pubs.rsc.org/en/content/articlelanding/2019/sc/c9sc01844a#!divAbstract), Chemical Science, 2019. 
+Y. Amar, A. M. Schweidtmann, P. Deutsch, L. Cao, and A. A. Lapkin, [Machine learning and molecular descriptors enable rational solvent selection in asymmetric catalysis](https://pubs.rsc.org/en/content/articlelanding/2019/sc/c9sc01844a#!divAbstract), Chemical Science, vol. 10, no. 27, pp. 6697-6706, 2019. 
 <a name="Amar2019">
 </a>
 
-A. Clayton, A. M. Schweidtmann, G. Clemens, J. Manson, C. Taylor, C. Nino, T. Chamberlain, N. Kapur, A. Blacker, A. A. Lapkin, R. Bourne [Automated self-optimisation of multi-step reaction and separation processes using machine learning](https://doi.org/10.1016/j.cej.2019.123340), Chemical Engineering Journal, 2020. 
+A. Clayton, A. M. Schweidtmann, G. Clemens, J. Manson, C. Taylor, C. Nino, T. Chamberlain, N. Kapur, A. Blacker, A. A. Lapkin, R. Bourne [Automated self-optimisation of multi-step reaction and separation processes using machine learning](https://doi.org/10.1016/j.cej.2019.123340), Chemical Engineering Journal, vol. 384, 123340, 2020. 
 <a name="Clayton2020">
 </a>
