@@ -1,6 +1,6 @@
 function [Xpareto,Ypareto,X,Y,XParetoGP,YParetoGP,YParetoGPstd,hypf] = TSEMO_V4(f,X,Y,lb,ub,Opt)
 %  Copyright (c) by Eric Bradford, Artur M. Schweidtmann and Alexei Lapkin, 2020-23-05.
-%  Version 3 by Eric Bradford (eric.bradford@ntnu.no), Artur M.
+%  Version 4 by Eric Bradford (eric.bradford@ntnu.no), Artur M.
 %  Schweidtmann (Artur.Schweidtmann@avt.rwth-aachen.de) and Alexei Lapkin
 %  (aal35@cam.ac.uk)
 
@@ -103,7 +103,7 @@ for i = 1:ceil(Opt.maxeval/Opt.NoOfBachSequential)
         hypf = zeros(Opt.Gen.NoOfInputDim+2,Opt.Gen.NoOfGPs);
         for j = 1:Opt.Gen.NoOfGPs
             covhyp = exp(Opt.GP(j).hyp.cov);
-            hypf(:,j) = [covhyp(1:Opt.Gen.NoOfInputDim).*(1./(ub-lb))';covhyp(end)*std(Y(:,j));exp(Opt.GP(j).hyp.lik)*std(Y(:,j))];
+            hypf(:,j) = [covhyp(1:Opt.Gen.NoOfInputDim).*(ub-lb)';covhyp(end)*std(Y(:,j));exp(Opt.GP(j).hyp.lik)*std(Y(:,j))];
         end
         
         %% Obtain Pareto front from spectral Gaussian process model
