@@ -11,7 +11,7 @@
 f = @vlmop2; % example function in the folder "Test_functions"
 
 %% Step 3: Specify problem
-no_outputs = 3;               % number of objectives
+no_outputs = 2;               % number of objectives
 no_inputs  = 2;               % number of decision variables
 lb = -2*ones(1,2);            % define lower bound on decision variables, [lb1,lb2,...]
 ub =  2*ones(1,2);            % define upper bound on decision variables, [ub1,ub2,...]
